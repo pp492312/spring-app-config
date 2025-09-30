@@ -13,3 +13,7 @@ eureka:
 #       resourceserver:
 #         jwt:
 #           issuer-uri: https://accounts.google.com
+
+spring:
+  zipkin:
+    baseUrl: hhtp://zipkin-svc:9411
